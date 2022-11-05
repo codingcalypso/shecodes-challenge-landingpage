@@ -10,49 +10,49 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <title>SheCodes Challenge - My Hometown</title>
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>SheCodes Challenge - Landing Page</title>
   </head>
   <body>
     <div class="container">
-      <div class="card mx-auto" style="width: 40rem">
-        <img
-          src="/images/okc_downtown1.avif"
-          class="card-img-top"
-          alt="Oklahoma City skyline"
-        />
-        <div class="card-body">
-          <h5 class="card-title">
-            <ul class="nav">
-              <li class="nav-item">
-                <a href="/index.html" alt="Home" class="nav-link active"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="/history.html" alt="History" class="nav-link"
-                  >History</a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="/activites.html" alt="Activities" class="nav-link"
-                  >Activities</a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="/travel.html" alt="Travel" class="nav-link">Travel</a>
-              </li>
-            </ul>
-          </h5>
-          <div class="card-text">
-            <div id="template" class="template">
-              My home located in Oklahoma City (OKC). It is the largest city in the state of Oklahoma. I have lived here for many years and I always find new things to enjoy about this city. 
+      <div class="card-main mb-3" style="max-width: 800px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="images/okc_downtown1.avif" class="main-img img-fluid h-100" alt="..." />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h1>My home of Oklahoma City</h1>
+              <p>
+                Oklahoma City, OK (OKC for short) has been my home for many
+                years now. Affectionately named "The Modern Frontier", Oklahoma
+                City has grown from the quiet city center of the state to a
+                bustling and thriving travel destination.
+              </p>
+              <p>Links below</p>
+              <div class="row">
+                <div class="d-flex justify-content-center">
+                  <a href="history.html" alt="History"
+                    ><img
+                      src="/images/ruralOK1.jpg"
+                      class="image-links img-fluid m-3"
+                  /></a>
+                  <a href="activities.html" alt="History"
+                    ><img
+                      src="/images/ruralOK1.jpg"
+                      class="image-links img-fluid m-3"
+                  /></a>
+                  <a href="travel.html" alt="Travel"
+                    ><img
+                      src="/images/ruralOK1.jpg"
+                      class="image-links img-fluid m-3"
+                  /></a>
+                </div>
+              </div>
             </div>
-          <img src="/images/ruralOK1.jpg"/>
           </div>
         </div>
       </div>
     </div>
-    <script src="javascript.js" class="card-img"></script>
   </body>
 </html>

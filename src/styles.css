@@ -1,0 +1,43 @@
+body {
+  background-color: #ededed;
+  font-size: 14px;
+}
+.main-img {
+  object-fit: cover;
+  border-top-left-radius: 10px;
+}
+.card-main, .card-activities, .card-history, .card-travel {
+    background-color: beige;
+}
+.card-main {
+  border-radius: 10px;
+  border-bottom: 25px solid #539fb0;
+}
+.card-history {
+  border-radius: 10px;
+  border-bottom: 25px solid #b08853;
+}
+.card-activities {
+  border-radius: 10px;
+  border-bottom: 25px solid #53b097;
+}
+.card-travel {
+  border-radius: 10px;
+  border-bottom: 25px solid #5b53b0;
+}
+.container {
+  margin-top: 100px;
+  max-width: 900px;
+}
+.title-content {
+  border: 1px solid #539fb0;
+  background-color: antiquewhite;
+}
+.image-links {
+  width: 150px;
+  height: 150px;
+}
+.image-links:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
