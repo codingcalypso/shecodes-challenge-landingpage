@@ -18,6 +18,14 @@ ul {
   font-size: 16px;
   font-weight: 300;
 }
+a {
+  color: #000;
+  font-family: var(--main-text);
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
 .btn-homepage {
   background: linear-gradient(
     90deg,
@@ -26,10 +34,6 @@ ul {
   );
   color: #000;
   border: none;
-  font-family: var(--main-text);
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
 }
 .main-img {
   object-fit: cover;
@@ -62,7 +66,7 @@ ul {
   box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.7);
 }
 .container {
-  margin-top: 100px;
+  margin-top: 50px;
   max-width: 900px;
 }
 .history-imgs {
