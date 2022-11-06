@@ -1,37 +1,73 @@
+:root {
+  --main-text: "Oswald", sans-serif;
+  --title-text: "Poppins", sans-serif;
+}
 body {
-  background-color: #ededed;
+  background-color: #fdf3e7;
   font-size: 14px;
+}
+h1 {
+  font-family: var(--main-text);
+  font-size: 38px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+p,
+ul {
+  font-family: var(--title-text);
+  font-size: 16px;
+  font-weight: 300;
+}
+.btn-homepage {
+  background: linear-gradient(
+    90deg,
+    rgb(214, 181, 138) 0%,
+    rgb(118, 165, 215) 100%
+  );
+  color: #000;
+  border: none;
+  font-family: var(--main-text);
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
 }
 .main-img {
   object-fit: cover;
   border-top-left-radius: 10px;
 }
-.card-main, .card-activities, .card-history, .card-travel {
-    background-color: beige;
+.card-main,
+.card-activities,
+.card-history,
+.card-travel {
+  background-color: rgb(255, 252, 242);
 }
 .card-main {
   border-radius: 10px;
   border-bottom: 25px solid #539fb0;
+  box-shadow: 0px 3px 34px 12px rgba(0, 0, 0, 0.3);
 }
 .card-history {
   border-radius: 10px;
   border-bottom: 25px solid #b08853;
+  box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.7);
 }
 .card-activities {
   border-radius: 10px;
   border-bottom: 25px solid #53b097;
+  box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.7);
 }
 .card-travel {
   border-radius: 10px;
   border-bottom: 25px solid #5b53b0;
+  box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.7);
 }
 .container {
   margin-top: 100px;
   max-width: 900px;
 }
-.title-content {
-  border: 1px solid #539fb0;
-  background-color: antiquewhite;
+.history-imgs {
+  width: 125px;
+  height: 125px;
 }
 .image-links {
   width: 150px;
