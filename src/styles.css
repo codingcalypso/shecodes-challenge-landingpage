@@ -4,7 +4,7 @@
 }
 body {
   background-color: #fdf3e7;
-  font-size: 14px;
+  font-size: 16px;
 }
 h1 {
   font-family: var(--main-text);
@@ -16,7 +16,7 @@ p,
 ul {
   font-family: var(--title-text);
   font-size: 16px;
-  font-weight: 300;
+  color: 0;
 }
 a {
   color: #000;
@@ -25,6 +25,12 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   text-decoration: none;
+}
+.project-description {
+  padding: 0px 5px;
+}
+.activity-title {
+  font-size: 20px;
 }
 .btn-homepage {
   background: linear-gradient(
@@ -80,4 +86,9 @@ a {
 .image-links:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+.website-links {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
 }
