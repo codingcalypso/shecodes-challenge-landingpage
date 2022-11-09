@@ -15,7 +15,7 @@ h1 {
 p,
 ul {
   font-family: var(--title-text);
-  font-size: 16px;
+  font-size: 14px;
   color: 0;
 }
 a {
@@ -26,8 +26,11 @@ a {
   letter-spacing: 0.1em;
   text-decoration: none;
 }
-.project-description {
-  padding: 0px 5px;
+.activity-imgs {
+  width: 200px;
+  height: 150px;
+  float: left;
+  margin-right: 15px;
 }
 .activity-title {
   font-size: 20px;
@@ -72,12 +75,12 @@ a {
   box-shadow: 0px 0px 34px rgba(0, 0, 0, 0.7);
 }
 .container {
-  margin-top: 50px;
-  max-width: 900px;
+  margin-top: 75px;
+  max-width: 1000px;
 }
 .history-imgs {
-  width: 125px;
-  height: 125px;
+  width: 200px;
+  height: 175px;
 }
 .image-links {
   width: 150px;
@@ -86,6 +89,9 @@ a {
 .image-links:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+.project-description {
+  padding: 0px 5px;
 }
 .website-links {
   font-size: 14px;
