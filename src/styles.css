@@ -25,13 +25,15 @@ a {
   letter-spacing: 0.1em;
   text-decoration: none;
 }
-a,
-.btn-primary {
+a {
   color: #000000;
   font-size: 20px;
 }
 a:hover {
-  color: #000;
+  color: #8a2140;
+}
+.active {
+  color: #fffffe;
 }
 .activity-imgs {
   width: 100px;
@@ -42,15 +44,7 @@ a:hover {
 .activity-title {
   font-size: 20px;
 }
-.btn-primary {
-  background: linear-gradient(
-    90deg,
-    rgb(214, 181, 138) 0%,
-    rgb(83, 159, 176) 100%
-  );
-  border: none;
-}
-.main-img {
+.side-img {
   object-fit: cover;
   border-top-left-radius: 10px;
 }
@@ -95,6 +89,14 @@ a:hover {
 .image-links:hover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+.index-imgs {
+  width: 200px;
+  height: 200px;
+}
+.navbar {
+  background-color: #539fb0;
+  border-top-right-radius: 10px;
 }
 .project-description {
   padding: 0px 5px;
