@@ -98,10 +98,7 @@ a:hover {
   text-decoration: underline;
   color: #8a2140;
 }
-@media (max-width: 500px) {
-  .thumbnail-imgs {
-    margin: 0 auto;
-  }
+@media (max-width: 450px) {
   iframe {
     width: 100%;
   }
